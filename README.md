@@ -64,7 +64,7 @@
    　　　(1) Run run.bat in app/src/main/assets/resource directory.<br>
    　　　(2) Dobule tap screen.<br>
    　　　(3) Pull the result file form directory /sdcard/Android/data/${package}/files, using command:<br>
-    　　　　adb pull /sdcard/Android/data/com.hisi.CGRenderFrameworkDemo/files/output_ie_sync.ppm.<br>
+    　　　　`adb pull /sdcard/Android/data/com.hisi.CGRenderFrameworkDemo/files/output_ie_sync.ppm.`<br>
 
 ## Supported Environments
 　　1. Devices with Android 8.0 or later.<br>
