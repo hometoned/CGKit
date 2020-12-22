@@ -10,7 +10,7 @@
 　　CGKit sample code encapsulates APIs of the Vulkan. It provides many sample programs for your reference or usage.<br>
 　　The following describes heads files of sample code.<br>
 
-　　|--[SDK DOWNLOAD](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Library-V5/sdk-download-0000001050441521-V5) |--cgsdk-vulkanframework headers<br>
+　　1. [SDK DOWNLOAD](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Library-V5/sdk-download-0000001050441521-V5) |--cgsdk-vulkanframework headers<br>
 Folder or File|Description
 ----|----
 　　include/CGRenderingFramework/Application:|Head file of plantform apis.<br>
@@ -23,29 +23,29 @@ Folder or File|Description
 　　include/CGRenderingFramework/Scene:|Head file of rendering scene apis.<br>
 　　include/CGRenderingFramework/Utils:|Head file of param apis.<br>
   
-　　|--cgsdk-vulkanframework libs<br>
+　　2. cgsdk-vulkanframework libs<br>
   Folder or File|Description
 ----|----
 　　libs/arm64-v8a/libcgkit.so:|64 bit<br>
 　　libs/armeabi-v7a/libcgkit.so:|32 bit<br>
 
-　　|--cgsdk-plugin-base libs<br>
+　　3. cgsdk-plugin-base libs<br>
    Folder or File|Description
 ----|----
 　　libs/arm64-v8a/libPluginInterface.so:|64 bit<br>
 　　libs/armeabi-v7a/libPluginInterface.so:|32 bit<br>
 
-　　|--cgsdk-plugin-offlinesuperresolution headers in Software/lib/cgsdk-plugin/cgsdk-plugin-offlinesuperresolution<br>
+　　4. cgsdk-plugin-offlinesuperresolution headers in Software/lib/cgsdk-plugin/cgsdk-plugin-offlinesuperresolution<br>
    Folder or File|Description
 ----|----
 　　pkg-for-cgsdk/include:|Head file of OSRPlugin apis.<br>
   
-　　|--cgsdk-plugin-offlinesuperresolution resources in Software/lib/cgsdk-plugin/cgsdk-plugin-offlinesuperresolution<br>
+　　5. cgsdk-plugin-offlinesuperresolution resources in Software/lib/cgsdk-plugin/cgsdk-plugin-offlinesuperresolution<br>
    Folder or File|Description
 ----|----
 　　pkg-for-cgsdk/assets:|Resource file of OSRPlugin.<br>
   
-　　|--cgsdk-plugin-offlinesuperresolution libs in Software/lib/cgsdk-plugin/cgsdk-plugin-offlinesuperresolution<br>
+　　6. cgsdk-plugin-offlinesuperresolution libs in Software/lib/cgsdk-plugin/cgsdk-plugin-offlinesuperresolution<br>
    Folder or File|Description
 ----|----
 　　pkg-for-cgsdk/libs/arm64-v8a/libcgkit_plugin_offlineSupRes.so:|64 bit
