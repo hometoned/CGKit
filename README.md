@@ -38,15 +38,17 @@ Folder or File|Description
 　　|--cgsdk-plugin-offlinesuperresolution headers in Software/lib/cgsdk-plugin/cgsdk-plugin-offlinesuperresolution<br>
    Folder or File|Description
 ----|----
-　　　● pkg-for-cgsdk/include:|Head file of OSRPlugin apis.<br>
+　　pkg-for-cgsdk/include:|Head file of OSRPlugin apis.<br>
+  
 　　|--cgsdk-plugin-offlinesuperresolution resources in Software/lib/cgsdk-plugin/cgsdk-plugin-offlinesuperresolution<br>
    Folder or File|Description
 ----|----
-　　　● pkg-for-cgsdk/assets:|Resource file of OSRPlugin.<br>
+　　pkg-for-cgsdk/assets:|Resource file of OSRPlugin.<br>
+  
 　　|--cgsdk-plugin-offlinesuperresolution libs in Software/lib/cgsdk-plugin/cgsdk-plugin-offlinesuperresolution<br>
    Folder or File|Description
 ----|----
-　　　● pkg-for-cgsdk/libs/arm64-v8a/libcgkit_plugin_offlineSupRes.so:|64 bit
+　　pkg-for-cgsdk/libs/arm64-v8a/libcgkit_plugin_offlineSupRes.so:|64 bit
 
 ## Getting Started
 　　1. Check whether the Android studio development environment is ready. Open the sample code project directory with file "build.gradle" in Android Studio. Run TestApp on your device or simulator which have installed latest Huawei Mobile Service(HMS).<br><br>
