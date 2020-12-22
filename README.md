@@ -59,9 +59,9 @@
     　　　　Add libs/armeabi-v7a/libPluginInterface.so in SDK to your own project(libs/libPluginInterface-v7a).<br>
     　　　　[cgsdk-plugin-offlinesuperresolution SDK]<br>
     　　　　Add pkg-for-cgsdk/include/OSRPluginCommon.h in SDK to your own project(src/main/cpp/include/OSRPlugin).<br>
-   　　 　　Add pkg-for-cgsdk/assets/ie_data.bin in SDK to your own project(src/main/assets/resource).<br>
-   　　 　　Add pluginList directory in SDK to your own project(src/main/assets).<br>
- 　　   　　Add libs/arm64-v8a/libcgkit_plugin_offlineSupRes.so in SDK to your own project(OSRPlugin/arm64-v8a).<br>
+    　　　　Add pkg-for-cgsdk/assets/ie_data.bin in SDK to your own project(src/main/assets/resource).<br>
+    　　　　Add pluginList directory in SDK to your own project(src/main/assets).<br>
+    　　　　Add libs/arm64-v8a/libcgkit_plugin_offlineSupRes.so in SDK to your own project(OSRPlugin/arm64-v8a).<br>
     
 　　6. Run the sample on your Android device or emulator for vulkan rendering demo.<br>
 　　7. Run the sample on your Android device or emulator for offlinesuperresolution plugin demo:<br>
