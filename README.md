@@ -35,12 +35,12 @@ Folder or File|Description
 　　libs/arm64-v8a/libPluginInterface.so:|64 bit<br>
 　　libs/armeabi-v7a/libPluginInterface.so:|32 bit<br>
 
-　　4. cgsdk-plugin-offlinesuperresolution headers in Software/lib/cgsdk-plugin/cgsdk-plugin-offlinesuperresolution<br>
+　　4. cgsdk-plugin-offlinesuperresolution headers in lib/cgsdk-plugin/cgsdk-plugin-offlinesuperresolution<br>
    Folder or File|Description
 ----|----
 　　pkg-for-cgsdk/include:|Head file of OSRPlugin apis.<br>
   
-　　5. cgsdk-plugin-offlinesuperresolution resources in Software/lib/cgsdk-plugin/cgsdk-plugin-offlinesuperresolution<br>
+　　5. cgsdk-plugin-offlinesuperresolution resources in /lib/cgsdk-plugin/cgsdk-plugin-offlinesuperresolution<br>
    Folder or File|Description
 ----|----
 　　pkg-for-cgsdk/assets:|Resource file of OSRPlugin.<br>
@@ -56,26 +56,26 @@ Folder or File|Description
 　　3. Create an app, generate a signing certificate and configure the app information in AppGallery Connect.<br>
    　　See details: [HUAWEI CGKit Development Preparation](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides/environment-req-0000001050200019)<br><br>
 　　4. To build this demo, please first import the demo in the Android Studio (3.5+).<br><br>
-　　5. Configure the sample code:<br><br>
+　　5. Configure the sample code:<br>
 　　　(1) Change the value of applicationid in the app-level build.gradle file of the sample project to the package name of your app.<br>
 　　　(2) Add signing certificate(.jks) to the root directory, and change the value of signingConfigs in the app-level build.gradle file of the sample project.<br>
 　　　(3) Create your own models and materials according to [CG Development Guide](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides/demo-data-process-0000001050200023).<br>
 　　　(4) Add Rendering Framework SDK, cgsdk-plugin-base SDK and cgsdk-plugin-offlinesuperresolution SDK to following direcotories.<br><br>
-    　　　　[Rendering Framework SDK]<br><br>
+    　　　　[Rendering Framework SDK]<br>
     　　　　Add include directory in SDK to your own project(src/cpp/include).<br>
     　　　　Add libs/arm64-v8a/libcgkit.so in SDK to your own project(libs/arm64-v8a).<br>
     　　　　Add libs/armeabi-v7a/libcgkit.so in SDK to your own project(libs/armeabi-v7a).<br><br>
-    　　　　[cgsdk-plugin-base SDK]<br><br>
+    　　　　[cgsdk-plugin-base SDK]<br>
     　　　　Add libs/arm64-v8a/libPluginInterface.so in SDK to your own project(libs/arm64-v8a).<br>
     　　　　Add libs/armeabi-v7a/libPluginInterface.so in SDK to your own project(libs/libPluginInterface-v7a).<br><br>
-    　　　　[cgsdk-plugin-offlinesuperresolution SDK]<br><br>
+    　　　　[cgsdk-plugin-offlinesuperresolution SDK]<br>
     　　　　Add pkg-for-cgsdk/include/OSRPluginCommon.h in SDK to your own project(src/main/cpp/include/OSRPlugin).<br>
     　　　　Add pkg-for-cgsdk/assets/ie_data.bin in SDK to your own project(src/main/assets/resource).<br>
     　　　　Add pluginList directory in SDK to your own project(src/main/assets).<br>
     　　　　Add libs/arm64-v8a/libcgkit_plugin_offlineSupRes.so in SDK to your own project(OSRPlugin/arm64-v8a).<br>
     
 　　6. Run the sample on your Android device or emulator for vulkan rendering demo.<br><br>
-　　7. Run the sample on your Android device or emulator for offlinesuperresolution plugin demo:<br><br>
+　　7. Run the sample on your Android device or emulator for offlinesuperresolution plugin demo:<br>
    　　　(1) Run run.bat in app/src/main/assets/resource directory.<br>
    　　　(2) Dobule tap screen.<br>
    　　　(3) Pull the result file form directory /sdcard/Android/data/${package}/files, using command:<br>
