@@ -43,10 +43,10 @@ pkg-for-cgsdk/libs/arm64-v8a/libcgkit_plugin_offlineSupRes.so      64 bit
    See details: [HUAWEI CGKit Development Preparation](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides/environment-req-0000001050200019)
 4. To build this demo, please first import the demo in the Android Studio (3.5+).
 5. Configure the sample code:
-    (1) Change the value of applicationid in the app-level build.gradle file of the sample project to the package name of your app.
-    (2) Add signing certificate(.jks) to the root directory, and change the value of signingConfigs in the app-level build.gradle file of the sample project.
-    (3) Create your own models and materials according to [CG Development Guide](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides/demo-data-process-0000001050200023).
-    (4) Add Rendering Framework SDK, cgsdk-plugin-base SDK and cgsdk-plugin-offlinesuperresolution SDK to following direcotories.
+   (1) Change the value of applicationid in the app-level build.gradle file of the sample project to the package name of your app.
+   (2) Add signing certificate(.jks) to the root directory, and change the value of signingConfigs in the app-level build.gradle file of the sample project.
+   (3) Create your own models and materials according to [CG Development Guide](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides/demo-data-process-    0000001050200023).
+   (4) Add Rendering Framework SDK, cgsdk-plugin-base SDK and cgsdk-plugin-offlinesuperresolution SDK to following direcotories.
         [Rendering Framework SDK]
         Add include directory in SDK to your own project(src/cpp/include).
         Add libs/arm64-v8a/libcgkit.so in SDK to your own project(libs/arm64-v8a).
