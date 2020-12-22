@@ -66,11 +66,16 @@ pkg-for-cgsdk/libs/arm64-v8a/libcgkit_plugin_offlineSupRes.so      64 bit
     Add libs/arm64-v8a/libcgkit_plugin_offlineSupRes.so in SDK to your own project(OSRPlugin/arm64-v8a).
 
 6. Run the sample on your Android device or emulator for vulkan rendering demo.
+
 7. Run the sample on your Android device or emulator for offlinesuperresolution plugin demo:
+   
    (1) Run run.bat in app/src/main/assets/resource directory.
+
    (2) Dobule tap screen.
+
    (3) Pull the result file form directory /sdcard/Android/data/${package}/files, using command:
-       adb pull /sdcard/Android/data/com.hisi.CGRenderFrameworkDemo/files/output_ie_sync.ppm.
+
+      adb pull /sdcard/Android/data/com.hisi.CGRenderFrameworkDemo/files/output_ie_sync.ppm.
 
 ## Supported Environments
 1. Devices with Android 8.0 or later.
