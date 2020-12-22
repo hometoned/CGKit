@@ -48,7 +48,7 @@
 　　5. Configure the sample code:<br>
 　　　(1) Change the value of applicationid in the app-level build.gradle file of the sample project to the package name of your app.<br>
 　　　(2) Add signing certificate(.jks) to the root directory, and change the value of signingConfigs in the app-level build.gradle file of the sample project.<br>
-　　　(3) Create your own models and materials according to [CG Development Guide](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides/demo-data-process-    0000001050200023)<br>
+　　　(3) Create your own models and materials according to [CG Development Guide](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides/demo-data-process-0000001050200023).<br>
    　　　(4) Add Rendering Framework SDK, cgsdk-plugin-base SDK and cgsdk-plugin-offlinesuperresolution SDK to following direcotories.<br>
     　　　　[Rendering Framework SDK]<br>
     　　　　Add include directory in SDK to your own project(src/cpp/include).<br>
