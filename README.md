@@ -12,17 +12,17 @@
 
 　　[SDK DOWNLOAD](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Library-V5/sdk-download-0000001050441521-V5) in Software/lib<br>
 　　[Rendering Framework SDK] in Software/lib/cgsdk-vulkanframework<br>
-  a|b
-  ---|---
-　　include/CGRenderingFramework/Application:|Head file of plantform apis.<br>
-　　include/CGRenderingFramework/Core:|Head file of instantiate apis.<br>
-　　include/CGRenderingFramework/Log:|Head file of log system apis.<br>
-　　include/CGRenderingFramework/Math:|Head file of math apis.<br>
-　　include/CGRenderingFramework/nolhmann:|Head file of json apis.<br>
-　　include/CGRenderingFramework/Rendering:|Head file of rendering apis.<br>
-　　include/CGRenderingFramework/Resource:|Head file of rendering resource apis.<br>
-　　include/CGRenderingFramework/Scene:|Head file of rendering scene apis.<br>
-　　include/CGRenderingFramework/Utils:|Head file of param apis.<br>
+  　　a|b<br>
+  　　---|---<br>
+　　　include/CGRenderingFramework/Application:|Head file of plantform apis.<br>
+　　　include/CGRenderingFramework/Core:|Head file of instantiate apis.<br>
+　　　include/CGRenderingFramework/Log:|Head file of log system apis.<br>
+　　　include/CGRenderingFramework/Math:|Head file of math apis.<br>
+　　　include/CGRenderingFramework/nolhmann:|Head file of json apis.<br>
+　　　include/CGRenderingFramework/Rendering:|Head file of rendering apis.<br>
+　　　include/CGRenderingFramework/Resource:|Head file of rendering resource apis.<br>
+　　　include/CGRenderingFramework/Scene:|Head file of rendering scene apis.<br>
+　　　include/CGRenderingFramework/Utils:|Head file of param apis.<br>
 
 　　libs/arm64-v8a/libcgkit.so:                  64 bit
 　　libs/armeabi-v7a/libcgkit.so:                32 bit
