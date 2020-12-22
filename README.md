@@ -11,7 +11,7 @@
 　　The following describes heads files of sample code.<br>
 
 　　|--[SDK DOWNLOAD](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Library-V5/sdk-download-0000001050441521-V5) |--cgsdk-vulkanframework<br>
-　　+ include/CGRenderingFramework/Application:|Head file of plantform apis.<br>
+　　* include/CGRenderingFramework/Application:|Head file of plantform apis.<br>
 　　+ include/CGRenderingFramework/Core:|Head file of instantiate apis.<br>
 　　- include/CGRenderingFramework/Log:|Head file of log system apis.<br>
 　　- include/CGRenderingFramework/Math:|Head file of math apis.<br>
