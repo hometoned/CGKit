@@ -10,28 +10,28 @@
 　　CGKit sample code encapsulates APIs of the Vulkan. It provides many sample programs for your reference or usage.<br>
 　　The following describes heads files of sample code.<br>
 
-　　|--[SDK DOWNLOAD](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Library-V5/sdk-download-0000001050441521-V5) |--cgsdk-vulkanframework<br>
+　　|--[SDK DOWNLOAD](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Library-V5/sdk-download-0000001050441521-V5) |--cgsdk-vulkanframework<br><br>
 　　● include/CGRenderingFramework/Application:|Head file of plantform apis.<br>
-　　● include/CGRenderingFramework/Core:|Head file of instantiate apis.<br>
-　　● include/CGRenderingFramework/Log:|Head file of log system apis.<br>
-　　● include/CGRenderingFramework/Math:|Head file of math apis.<br>
-　　● include/CGRenderingFramework/nolhmann:|Head file of json apis.<br>
-　　● include/CGRenderingFramework/Rendering:|Head file of rendering apis.<br>
-　　● include/CGRenderingFramework/Resource:|Head file of rendering resource apis.<br>
-　　● include/CGRenderingFramework/Scene:|Head file of rendering scene apis.<br>
-　　● include/CGRenderingFramework/Utils:|Head file of param apis.<br>
-   |--cgsdk-vulkanframework libs
-　　* libs/arm64-v8a/libcgkit.so:|64 bit<br>
-　　* libs/armeabi-v7a/libcgkit.so:|32 bit<br>
+　　● include/CGRenderingFramework/Core: Head file of instantiate apis.<br>
+　　● include/CGRenderingFramework/Log: Head file of log system apis.<br>
+　　● include/CGRenderingFramework/Math: Head file of math apis.<br>
+　　● include/CGRenderingFramework/nolhmann: Head file of json apis.<br>
+　　● include/CGRenderingFramework/Rendering: Head file of rendering apis.<br>
+　　● include/CGRenderingFramework/Resource: Head file of rendering resource apis.<br>
+　　● include/CGRenderingFramework/Scene: Head file of rendering scene apis.<br>
+　　● include/CGRenderingFramework/Utils: Head file of param apis.<br><br>
+　　|--cgsdk-vulkanframework libs<br><br>
+　　● libs/arm64-v8a/libcgkit.so: 64 bit<br>
+　　● libs/armeabi-v7a/libcgkit.so: 32 bit<br>
 
-　　[cgsdk-plugin-base SDK] in Software/lib/cgsdk-plugin/cgsdk-plugin-base
-　　libs/arm64-v8a/libPluginInterface.so:|64 bit
-　　libs/armeabi-v7a/libPluginInterface.so:|32 bit
+　　[cgsdk-plugin-base SDK] in Software/lib/cgsdk-plugin/cgsdk-plugin-base<br><br>
+　　● libs/arm64-v8a/libPluginInterface.so: 64 bit<br>
+　　● libs/armeabi-v7a/libPluginInterface.so: 32 bit<br>
 
-　　[cgsdk-plugin-offlinesuperresolution SDK] in Software/lib/cgsdk-plugin/cgsdk-plugin-offlinesuperresolution
-　　pkg-for-cgsdk/include|Head file of OSRPlugin apis.
-　　pkg-for-cgsdk/assets|Resource file of OSRPlugin.
-　　pkg-for-cgsdk/libs/arm64-v8a/libcgkit_plugin_offlineSupRes.so|64 bit
+　　[cgsdk-plugin-offlinesuperresolution SDK] in Software/lib/cgsdk-plugin/cgsdk-plugin-offlinesuperresolution<br><br>
+　　● pkg-for-cgsdk/include|Head file of OSRPlugin apis.<br>
+　　● pkg-for-cgsdk/assets|Resource file of OSRPlugin.<br>
+　　● pkg-for-cgsdk/libs/arm64-v8a/libcgkit_plugin_offlineSupRes.so|64 bit
 
 ## Getting Started
 　　1. Check whether the Android studio development environment is ready. Open the sample code project directory with file "build.gradle" in Android Studio. Run TestApp on your device or simulator which have installed latest Huawei Mobile Service(HMS).<br>
