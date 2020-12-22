@@ -10,7 +10,7 @@
 　　CGKit sample code encapsulates APIs of the Vulkan. It provides many sample programs for your reference or usage.<br>
 　　The following describes heads files of sample code.<br>
 
-　　[SDK DOWNLOAD](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Library-V5/sdk-download-0000001050441521-V5) in Software/lib<br>
+　　|--[SDK DOWNLOAD](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Library-V5/sdk-download-0000001050441521-V5) in Software/lib<br>
 　　[Rendering Framework SDK] in Software/lib/cgsdk-vulkanframework<br>
   Directory or File|Description
   ---|---
@@ -49,18 +49,18 @@
 　　　(1) Change the value of applicationid in the app-level build.gradle file of the sample project to the package name of your app.<br>
 　　　(2) Add signing certificate(.jks) to the root directory, and change the value of signingConfigs in the app-level build.gradle file of the sample project.<br>
 　　　(3) Create your own models and materials according to [CG Development Guide](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides/demo-data-process-0000001050200023).<br>
-   　　　(4) Add Rendering Framework SDK, cgsdk-plugin-base SDK and cgsdk-plugin-offlinesuperresolution SDK to following direcotories.<br>
+   　　　(4) Add Rendering Framework SDK, cgsdk-plugin-base SDK and cgsdk-plugin-offlinesuperresolution SDK to following direcotories.<br><br>
     　　　　[Rendering Framework SDK]<br>
     　　　　Add include directory in SDK to your own project(src/cpp/include).<br>
     　　　　Add libs/arm64-v8a/libcgkit.so in SDK to your own project(libs/arm64-v8a).<br>
     　　　　Add libs/armeabi-v7a/libcgkit.so in SDK to your own project(libs/armeabi-v7a).<br>
-    　　　　[cgsdk-plugin-base SDK]<br>
+    　　　　[cgsdk-plugin-base SDK]<br><br>
     　　　　Add libs/arm64-v8a/libPluginInterface.so in SDK to your own project(libs/arm64-v8a).<br>
     　　　　Add libs/armeabi-v7a/libPluginInterface.so in SDK to your own project(libs/libPluginInterface-v7a).<br>
-    　　　　[cgsdk-plugin-offlinesuperresolution SDK]<br>
+    　　　　[cgsdk-plugin-offlinesuperresolution SDK]<br><br>
     　　　　Add pkg-for-cgsdk/include/OSRPluginCommon.h in SDK to your own project(src/main/cpp/include/OSRPlugin).<br>
-    　　　　Add pkg-for-cgsdk/assets/ie_data.bin in SDK to your own project(src/main/assets/resource).<br>
-    　　　　Add pluginList directory in SDK to your own project(src/main/assets).<br>
+    　　　　Add pkg-for-cgsdk/assets/ie_data.bin in SDK to your own project(src/main/assets/resource).<br><br>
+    　　　　Add pluginList directory in SDK to your own project(src/main/assets).<br><br>
     　　　　Add libs/arm64-v8a/libcgkit_plugin_offlineSupRes.so in SDK to your own project(OSRPlugin/arm64-v8a).<br>
     
 　　6. Run the sample on your Android device or emulator for vulkan rendering demo.<br>
