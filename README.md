@@ -27,15 +27,17 @@
 　　libs/armeabi-v7a/libcgkit.so:|32 bit<br>
 
 　　[cgsdk-plugin-base SDK] in Software/lib/cgsdk-plugin/cgsdk-plugin-base
-　　libs/arm64-v8a/libPluginInterface.so:        64 bit
-　　libs/armeabi-v7a/libPluginInterface.so:      32 bit
+  Directory or File|Description
+  ---|---
+　　libs/arm64-v8a/libPluginInterface.so:|64 bit
+　　libs/armeabi-v7a/libPluginInterface.so:|32 bit
 
 　　[cgsdk-plugin-offlinesuperresolution SDK] in Software/lib/cgsdk-plugin/cgsdk-plugin-offlinesuperresolution
-　　pkg-for-cgsdk/include                                              Head file of OSRPlugin apis.
-
-　　pkg-for-cgsdk/assets                                               Resource file of OSRPlugin.
-
-　　pkg-for-cgsdk/libs/arm64-v8a/libcgkit_plugin_offlineSupRes.so      64 bit
+  Directory or File|Description
+  ---|---
+　　pkg-for-cgsdk/include|Head file of OSRPlugin apis.
+　　pkg-for-cgsdk/assets|Resource file of OSRPlugin.
+　　pkg-for-cgsdk/libs/arm64-v8a/libcgkit_plugin_offlineSupRes.so|64 bit
 
 ## Getting Started
 1. Check whether the Android studio development environment is ready. Open the sample code project directory with file "build.gradle" in Android Studio. Run TestApp on your device or simulator which have installed latest Huawei Mobile Service(HMS).
