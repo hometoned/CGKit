@@ -40,12 +40,12 @@ Folder or File|Description
 ----|----
 　　pkg-for-cgsdk/include:|Head file of OSRPlugin apis.<br>
   
-　　5. cgsdk-plugin-offlinesuperresolution resources in /lib/cgsdk-plugin/cgsdk-plugin-offlinesuperresolution<br>
+　　5. cgsdk-plugin-offlinesuperresolution resources in lib/cgsdk-plugin/cgsdk-plugin-offlinesuperresolution<br>
    Folder or File|Description
 ----|----
 　　pkg-for-cgsdk/assets:|Resource file of OSRPlugin.<br>
   
-　　6. cgsdk-plugin-offlinesuperresolution libs in Software/lib/cgsdk-plugin/cgsdk-plugin-offlinesuperresolution<br>
+　　6. cgsdk-plugin-offlinesuperresolution libs in lib/cgsdk-plugin/cgsdk-plugin-offlinesuperresolution<br>
    Folder or File|Description
 ----|----
 　　pkg-for-cgsdk/libs/arm64-v8a/libcgkit_plugin_offlineSupRes.so:|64 bit
