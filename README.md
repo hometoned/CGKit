@@ -7,8 +7,8 @@
 * [Result](#result)
 * [License](#license)
 ## Introduction
-　　CGKit sample code encapsulates APIs of the Vulkan. It provides many sample programs for your reference or usage.
-<br>    The following describes heads files of sample code.</br>
+　　CGKit sample code encapsulates APIs of the Vulkan. It provides many sample programs for your reference or usage.<br>
+　　The following describes heads files of sample code.</br>
 
 　　[SDK DOWNLOAD](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Library-V5/sdk-download-0000001050441521-V5) in Software/lib
 　　[Rendering Framework SDK] in Software/lib/cgsdk-vulkanframework
