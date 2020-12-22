@@ -29,11 +29,11 @@
 　　　● libs/armeabi-v7a/libPluginInterface.so: 32 bit<br>
 
 　　|--cgsdk-plugin-offlinesuperresolution headers in Software/lib/cgsdk-plugin/cgsdk-plugin-offlinesuperresolution<br><br>
-　　　● pkg-for-cgsdk/include Head file of OSRPlugin apis.<br>
-  　|--cgsdk-plugin-offlinesuperresolution resources in Software/lib/cgsdk-plugin/cgsdk-plugin-offlinesuperresolution<br><br>
-　　　● pkg-for-cgsdk/assets Resource file of OSRPlugin.<br>
-  　|--cgsdk-plugin-offlinesuperresolution libs in Software/lib/cgsdk-plugin/cgsdk-plugin-offlinesuperresolution<br><br>
-　　　● pkg-for-cgsdk/libs/arm64-v8a/libcgkit_plugin_offlineSupRes.so 64 bit
+　　　● pkg-for-cgsdk/include: Head file of OSRPlugin apis.<br><br>
+　　|--cgsdk-plugin-offlinesuperresolution resources in Software/lib/cgsdk-plugin/cgsdk-plugin-offlinesuperresolution<br><br>
+　　　● pkg-for-cgsdk/assets: Resource file of OSRPlugin.<br><br>
+　　|--cgsdk-plugin-offlinesuperresolution libs in Software/lib/cgsdk-plugin/cgsdk-plugin-offlinesuperresolution<br><br>
+　　　● pkg-for-cgsdk/libs/arm64-v8a/libcgkit_plugin_offlineSupRes.so: 64 bit
 
 ## Getting Started
 　　1. Check whether the Android studio development environment is ready. Open the sample code project directory with file "build.gradle" in Android Studio. Run TestApp on your device or simulator which have installed latest Huawei Mobile Service(HMS).<br>
@@ -49,11 +49,11 @@
     　　　　[Rendering Framework SDK]<br>
     　　　　Add include directory in SDK to your own project(src/cpp/include).<br>
     　　　　Add libs/arm64-v8a/libcgkit.so in SDK to your own project(libs/arm64-v8a).<br>
-    　　　　Add libs/armeabi-v7a/libcgkit.so in SDK to your own project(libs/armeabi-v7a).<br>
-    　　　　[cgsdk-plugin-base SDK]<br><br>
+    　　　　Add libs/armeabi-v7a/libcgkit.so in SDK to your own project(libs/armeabi-v7a).<br><br>
+    　　　　[cgsdk-plugin-base SDK]<br>
     　　　　Add libs/arm64-v8a/libPluginInterface.so in SDK to your own project(libs/arm64-v8a).<br>
-    　　　　Add libs/armeabi-v7a/libPluginInterface.so in SDK to your own project(libs/libPluginInterface-v7a).<br>
-    　　　　[cgsdk-plugin-offlinesuperresolution SDK]<br><br>
+    　　　　Add libs/armeabi-v7a/libPluginInterface.so in SDK to your own project(libs/libPluginInterface-v7a).<br><br>
+    　　　　[cgsdk-plugin-offlinesuperresolution SDK]<br>
     　　　　Add pkg-for-cgsdk/include/OSRPluginCommon.h in SDK to your own project(src/main/cpp/include/OSRPlugin).<br>
     　　　　Add pkg-for-cgsdk/assets/ie_data.bin in SDK to your own project(src/main/assets/resource).<br><br>
     　　　　Add pluginList directory in SDK to your own project(src/main/assets).<br><br>
