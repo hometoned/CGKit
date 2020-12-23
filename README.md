@@ -58,24 +58,24 @@ cgsdk-vulkanframework headers
        
 　　　　[Rendering Framework SDK]<br>
 　　　　◉ Add include directory in SDK to your own project(src/cpp/include).<br>
-　　　　◉ Add libs/arm64-v8a/libcgkit.so in SDK to your own project(libs/arm64-v8a).<br>
-　　　　◉ Add libs/armeabi-v7a/libcgkit.so in SDK to your own project(libs/armeabi-v7a).<br>
+　　　　◉ Add `libs/arm64-v8a/libcgkit.so` in SDK to your own project(libs/arm64-v8a).<br>
+　　　　◉ Add `libs/armeabi-v7a/libcgkit.so` in SDK to your own project(libs/armeabi-v7a).<br>
        
 　　　　[cgsdk-plugin-base SDK]<br>
-　　　　◉ Add libs/arm64-v8a/libPluginInterface.so in SDK to your own project(libs/arm64-v8a).<br>
-　　　　◉ Add libs/armeabi-v7a/libPluginInterface.so in SDK to your own project(libs/libPluginInterface-v7a).<br>
+　　　　◉ Add `libs/arm64-v8a/libPluginInterface.so` in SDK to your own project(libs/arm64-v8a).<br>
+　　　　◉ Add `libs/armeabi-v7a/libPluginInterface.so` in SDK to your own project(libs/libPluginInterface-v7a).<br>
        
 　　　　[cgsdk-plugin-offlinesuperresolution SDK]<br>
-　　　　◉ Add pkg-for-cgsdk/include/OSRPluginCommon.h in SDK to your own project(src/main/cpp/include/OSRPlugin).<br>
-　　　　◉ Add pkg-for-cgsdk/assets/ie_data.bin in SDK to your own project(src/main/assets/resource).<br>
-　　　　◉ Add pluginList directory in SDK to your own project(src/main/assets).<br>
-　　　　◉ Add libs/arm64-v8a/libcgkit_plugin_offlineSupRes.so in SDK to your own project(OSRPlugin/arm64-v8a).<br><br>
+　　　　◉ Add `pkg-for-cgsdk/include/OSRPluginCommon.h` in SDK to your own project(`src/main/cpp/include/OSRPlugin`).<br>
+　　　　◉ Add `pkg-for-cgsdk/assets/ie_data.bin` in SDK to your own project(`src/main/assets/resource`).<br>
+　　　　◉ Add pluginList directory in SDK to your own project(`src/main/assets`).<br>
+　　　　◉ Add `libs/arm64-v8a/libcgkit_plugin_offlineSupRes.so` in SDK to your own project(`OSRPlugin/arm64-v8a`).<br><br>
 
 　　6. Run the sample on your Android device or emulator for vulkan rendering demo.<br><br>
 　　7. Run the sample on your Android device or emulator for offlinesuperresolution plugin demo:<br>
 　　　● Run run.bat in app/src/main/assets/resource directory.<br>
 　　　● Dobule tap screen.<br>
-　　　● Pull the result file form /sdcard/Android/data/com.hisi.CGRenderFrameworkDemo/output_ie_sync.ppm.<br>
+　　　● Pull the result file form `/sdcard/Android/data/com.hisi.CGRenderFrameworkDemo/output_ie_sync.ppm`.<br>
 
 ## Supported Environments
 　　1. Devices with Android 8.0 or later.<br>
