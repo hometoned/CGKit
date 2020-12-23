@@ -6,20 +6,21 @@
  * [Supported Environments](#supported-environments)
  * [License](#license)
 ## Introduction
-CGKit Plugin sample code show development of plugin. It provides many sample programs for your reference or usage.
+CGKit Plugin sample code show development of plugin. It provides many sample programs for your reference or usage.<br>
 The following describes heads files of sample code.
 
-[SDK DOWNLOAD](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Library-V5/sdk-download-0000001050441521-V5) in Software/lib
+[SDK DOWNLOAD](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Library-V5/sdk-download-0000001050441521-V5) in lib
 
-[cgsdk-plugin-base SDK] in Software/lib/cgsdk-plugin/cgsdk-plugin-base
-    Include/CGRenderingFramework/Core:           Head file of instantiate apis.
-    Include/CGRenderingFramework/Math:           Head file of math apis.
-    Include/CGRenderingFramework/nlohmann:       Head file of json apis.
-    Include/CGRenderingFramework/PluginManager:  Head file of PluginManager apis.
-    Include/CGRenderingFramework/Utils:          Head file of Param apis.
-
-    libs/arm64-v8a/libPluginInterface.so:                  64 bit
-    libs/armeabi-v7a/libPluginInterface.so:                32 bit
+[cgsdk-plugin-base SDK] in lib/cgsdk-plugin/cgsdk-plugin-base<br>
+ File|Description
+ ---|---
+ Include/CGRenderingFramework/Core:|Head file of instantiate apis.
+ Include/CGRenderingFramework/Math:|Head file of math apis.
+ Include/CGRenderingFramework/nlohmann:|Head file of json apis.
+ Include/CGRenderingFramework/PluginManager:|Head file of PluginManager apis.
+ Include/CGRenderingFramework/Utils:|Head file of Param apis.
+ libs/arm64-v8a/libPluginInterface.so:|64 bit
+ libs/armeabi-v7a/libPluginInterface.so:|32 bit
 
 ## Getting Started
 1. Add cgsdk-plugin-base SDK to to your own project(PluginSdk).
