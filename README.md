@@ -26,7 +26,7 @@ The following describes heads files of sample code.
 　　　　(1) Initialize the plugin.<br>
 　　　　(2) Select a test image.<br>
 　　　　(3) Run super-sampling.<br>
-       　　(a) Query super-sampling support.<br>
+　　　　　　(a) Query super-sampling support.<br>
        　　If supported:<br>
        　　(b) Run super-sampling synchronously. The result will be saved to "/sdcard/osr/SS_Sync.ppm"<br>
        　　(c) Or run super-sampling asynchronously. The result will be saved to "/sdcard/osr/SS_Async.ppm"<br>
