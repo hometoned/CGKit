@@ -10,11 +10,12 @@
 OSRPlugin sample code provides sample programs for reference or usage of offline super-resolution plugin.
 The following describes heads files of sample code.
     
-　　[SDK DOWNLOAD](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Library-V5/sdk-download-0000001050441521-V5) in Software/lib
-    include/OSRPluginCommon.h:                                       Head file of necessary enumerations and structures.
-    include/OSRPluginInterface.h:                                    Head file of apis.
-    
-    libs/arm64-v8a/libthirdpartyengine_plugin_offlineSupRes.so:      64 bit
+　　[SDK DOWNLOAD](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Library-V5/sdk-download-0000001050441521-V5) in Software/lib<br>
+　　a|b
+　　----|---
+    include/OSRPluginCommon.h:|Head file of necessary enumerations and structures.<br>
+    include/OSRPluginInterface.h:|Head file of apis.<br>
+    libs/arm64-v8a/libthirdpartyengine_plugin_offlineSupRes.so:|64 bit
 
 ## Getting Started
     1. Push the test image file(.ppm) to your mobile.
