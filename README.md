@@ -82,8 +82,8 @@ cgsdk-vulkanframework headers
 　　2. Devices with Vulkan1.0 or Vulkan1.1.
 
 ## Result
-　　<img src="CGRenderResult.jpg" width="30%" height="30%">
-　　<img src="OfflinesuperresolutionResult.ppm" width="80%" height="80%">
+ <img src="CGRenderResult.jpg" width="30%" height="30%">
+ <img src="OfflinesuperresolutionResult.ppm" width="80%" height="80%">
 
 ## License
 　　The sample of CGKit has obtained the [Apache 2.0 license](http://www.apache.org/licenses/LICENSE-2.0).
