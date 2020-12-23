@@ -32,4 +32,4 @@ To build the sample, import the sample to Android Studio (3.x +).
 <img src="DemoResult.jpg" width = 80% height = 40%>
 
 ## License
-The sample of OpenGL Smart Cache has obtained the [Apache 2.0 license.](http://www.apache.org/licenses/LICENSE-2.0).
+The sample of OpenGL Smart Cache has obtained the [Apache 2.0 license](http://www.apache.org/licenses/LICENSE-2.0).
