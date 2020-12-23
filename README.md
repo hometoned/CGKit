@@ -7,20 +7,22 @@
  * [Result](#result)
  * [License](#license)
 ## Introduction
-CGKit sample code encapsulates APIs of the Vulkan. It provides many sample programs for your reference or usage.
-The following describes heads files of sample code.
+CGKit sample code encapsulates APIs of the Vulkan. It provides many sample programs for your reference or usage.<br>
+The following describes heads files of sample code.<br>
 
-|-- [SDK DOWNLOAD](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Library-V5/sdk-download-0000001050441521-V5)
-|-- cgsdk-vulkanframework headers
-- include/CGRenderingFramework/Application:    Head file of platform apis.
-- include/CGRenderingFramework/Core:           Head file of instantiate apis.
-- include/CGRenderingFramework/Log:            Head file of log system apis.
-- include/CGRenderingFramework/Math:           Head file of math apis.
-- include/CGRenderingFramework/nolhmann:       Head file of json apis.
-- include/CGRenderingFramework/Rendering:      Head file of rendering apis.
-- include/CGRenderingFramework/Resource:       Head file of rendering resource apis.
-- include/CGRenderingFramework/Scene:          Head file of rendering scene apis.
-- include/CGRenderingFramework/Utils:          Head file of param apis.
+[SDK DOWNLOAD](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Library-V5/sdk-download-0000001050441521-V5)<br>
+cgsdk-vulkanframework headers
+ File|Description
+ ---|---
+ include/CGRenderingFramework/Application:|Head file of platform apis.
+ include/CGRenderingFramework/Core:|Head file of instantiate apis.
+ include/CGRenderingFramework/Log:|Head file of log system apis.
+ include/CGRenderingFramework/Math:|Head file of math apis.
+ include/CGRenderingFramework/nolhmann:|Head file of json apis.
+ include/CGRenderingFramework/Rendering:|Head file of rendering apis.
+ include/CGRenderingFramework/Resource:|Head file of rendering resource apis.
+ include/CGRenderingFramework/Scene:|Head file of rendering scene apis.
+ include/CGRenderingFramework/Utils:|Head file of param apis.
 
 |-- cgsdk-vulkanframework libs
 - libs/arm64-v8a/libcgkit.so:                  64 bit
