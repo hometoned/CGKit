@@ -24,19 +24,25 @@ cgsdk-vulkanframework headers
  include/CGRenderingFramework/Scene:|Head file of rendering scene apis.
  include/CGRenderingFramework/Utils:|Head file of param apis.
 
-|-- cgsdk-vulkanframework libs
-- libs/arm64-v8a/libcgkit.so:                  64 bit
-- libs/armeabi-v7a/libcgkit.so:                32 bit
+ cgsdk-vulkanframework libs
+ File|Description
+ ---|---
+ libs/arm64-v8a/libcgkit.so:|64 bit
+ libs/armeabi-v7a/libcgkit.so:|32 bit
 
-|-- cgsdk-plugin base libs
-- libs/arm64-v8a/libPluginInterface.so:        64 bit
-- libs/armeabi-v7a/libPluginInterface.so:      32 bit
+ cgsdk-plugin base libs
+ File|Description
+ ---|---
+ libs/arm64-v8a/libPluginInterface.so:|64 bit
+ libs/armeabi-v7a/libPluginInterface.so:|32 bit
 
-|-- cgsdk-plugin other headers and libs
-- pkg-for-cgsdk/include/OSRPluginCommon.h                            Head file of OSRPlugin apis.
-- pkg-for-cgsdk/assets/ie_data.bin                                   Resource file of OSRPlugin.
-- pkg-for-cgsdk/assets/pluginList/plugin.json                        Configuration file of OSRPlugin.
-- pkg-for-cgsdk/libs/arm64-v8a/libcgkit_plugin_offlineSupRes.so      64 bit
+ cgsdk-plugin other headers and libs
+ File|Description
+ ---|---
+ pkg-for-cgsdk/include/OSRPluginCommon.h|Head file of OSRPlugin apis.
+ pkg-for-cgsdk/assets/ie_data.bin|Resource file of OSRPlugin.
+ pkg-for-cgsdk/assets/pluginList/plugin.json|Configuration file of OSRPlugin.
+ pkg-for-cgsdk/libs/arm64-v8a/libcgkit_plugin_offlineSupRes.so|64 bit
 
 ## Getting Started
 1. Check whether the Android studio development environment is ready. Open the sample code project directory with file "build.gradle" in Android Studio. Run TestApp on your device or simulator which have installed latest Huawei Mobile Service(HMS).
