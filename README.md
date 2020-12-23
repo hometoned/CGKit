@@ -27,15 +27,15 @@ The following describes heads files of sample code.
 　　　　(2) Select a test image.<br>
 　　　　(3) Run super-sampling.<br>
 　　　　　　(a) Query super-sampling support.<br>
-       　　If supported:<br>
-       　　(b) Run super-sampling synchronously. The result will be saved to "/sdcard/osr/SS_Sync.ppm"<br>
-       　　(c) Or run super-sampling asynchronously. The result will be saved to "/sdcard/osr/SS_Async.ppm"<br>
+　　　　　　If supported:<br>
+　　　　　　(b) Run super-sampling synchronously. The result will be saved to "/sdcard/osr/SS_Sync.ppm"<br>
+　　　　　　(c) Or run super-sampling asynchronously. The result will be saved to "/sdcard/osr/SS_Async.ppm"<br>
 　　　　(4) Or run image-enhancing.<br>
-       　　(a) Query image-enhancing support.<br>
-       　　If supported:<br>
-       　　(b) Set sharpness and tone-mapping.<br>
-       　　(c) Run image-enhancing synchronously. The result will be saved to "/sdcard/osr/IE_Sync.ppm"<br>
-       　　(d) Or run image-enhancing asynchronously. The result will be saved to "/sdcard/osr/IE_Async.ppm"<br>
+　　　　　　(a) Query image-enhancing support.<br>
+　　　　　　If supported:<br>
+　　　　　　(b) Set sharpness and tone-mapping.<br>
+　　　　　　(c) Run image-enhancing synchronously. The result will be saved to "/sdcard/osr/IE_Sync.ppm"<br>
+　　　　　　(d) Or run image-enhancing asynchronously. The result will be saved to "/sdcard/osr/IE_Async.ppm"<br>
 　　6. Uninitialize the plugin.<br>
 
 ## Supported Environments
