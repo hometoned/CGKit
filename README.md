@@ -29,8 +29,8 @@ The following describes heads files of sample code.
 　　　　　　(a) Query super-sampling support.<br>
 　　　　　　If supported:<br>
 　　　　　　(b) Run super-sampling synchronously. The result will be saved to "/sdcard/osr/SS_Sync.ppm"<br>
-　　　　　　(c) Or run super-sampling asynchronously. The result will be saved to "/sdcard/osr/SS_Async.ppm"<br>
-　　　　(4) Or run image-enhancing.<br><br>
+　　　　　　(c) Or run super-sampling asynchronously. The result will be saved to "/sdcard/osr/SS_Async.ppm"<br><br>
+　　　　(4) Or run image-enhancing.<br>
 　　　　　　(a) Query image-enhancing support.<br>
 　　　　　　If supported:<br>
 　　　　　　(b) Set sharpness and tone-mapping.<br>
