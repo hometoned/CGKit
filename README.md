@@ -48,7 +48,7 @@ cgsdk-vulkanframework headers
 　　1. Check whether the Android studio development environment is ready. Open the sample code project directory with file "build.gradle" in Android Studio. Run TestApp on your device or simulator which have installed latest Huawei Mobile Service(HMS).<br><br>
 　　2. Register a [HUAWEI account](https://developer.huawei.com/consumer/en/).<br><br>
 　　3. Create an app, generate a signing certificate and configure the app information in AppGallery Connect.<br>
-   See details: [HUAWEI CGKit Development Preparation](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides/environment-req-0000001050200019)
+   See details: [HUAWEI CGKit Development Preparation](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides/environment-req-0000001050200019)<br><br>
 　　4. To build this demo, please first import the demo in the Android Studio (3.5+).<br><br>
 　　5. Configure the sample code:<br>
    * Change the value of applicationid in the app-level build.gradle file of the sample project to the package name of your app.
@@ -78,8 +78,8 @@ cgsdk-vulkanframework headers
    * Pull the result file form /sdcard/Android/data/com.hisi.CGRenderFrameworkDemo/output_ie_sync.ppm.
 
 ## Supported Environments
-　　1. Devices with Android 8.0 or later.
-　　2. Devices with Vulkan1.0 or Vulkan1.1.
+　　1. Devices with Android 8.0 or later.<br>
+　　2. Devices with Vulkan1.0 or Vulkan1.1.<br>
 
 ## Result
  <img src="CGRenderResult.jpg" width="30%" height="30%">
