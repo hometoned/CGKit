@@ -1,4 +1,4 @@
-# Vulkan Smart Cache and Pre-rotation
+# OpenGL Smart Cache
 
 
 ## Table of Contents
@@ -10,17 +10,17 @@
 
 
 ## Introduction
-The sample code describes how to use Vulkan Smart Cache and Pre-rotation.
+The sample code describes how to use OpenGL Smart Cache.
 
 Main APIs in sample code:
-1. Query supported extensions: <br>
-vkEnumerateDeviceExtensionProperties():query if the device support Smart Cache and Pre-rotation.<br>
-2. Add extensions: <br>
-vkCreateDevice():append the related extension to the table.
+1. Query supported extensions: 
+glGetString():query if the device support OpenGL Smart Cache.
+
+2. Add Smart Cache flags: 
+glTexImage2D() or glTexStorage2D():Add Smart Cache Flag when applying for memory.
 
 ## Preparation
 See details:[HUAWEI HMS Core](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides/introduction-0000001050200029)
-
 ### Build
 To build the sample, import the sample to Android Studio (3.x +).
 
@@ -32,4 +32,4 @@ To build the sample, import the sample to Android Studio (3.x +).
 <img src="DemoResult.jpg" width = 80% height = 40%>
 
 ## License
-The sample of Vulkan Smart Cache and Pre-rotation has obtained the [Apache 2.0 license](http://www.apache.org/licenses/LICENSE-2.0).
+The sample of OpenGL Smart Cache has obtained the [Apache 2.0 license](http://www.apache.org/licenses/LICENSE-2.0).
