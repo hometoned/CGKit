@@ -45,12 +45,12 @@ cgsdk-vulkanframework headers
  pkg-for-cgsdk/libs/arm64-v8a/libcgkit_plugin_offlineSupRes.so|64 bit
 
 ## Getting Started
-　　1. Check whether the Android studio development environment is ready. Open the sample code project directory with file "build.gradle" in Android Studio. Run TestApp on your device or simulator which have installed latest Huawei Mobile Service(HMS).
-　　2. Register a [HUAWEI account](https://developer.huawei.com/consumer/en/).
-　　3. Create an app, generate a signing certificate and configure the app information in AppGallery Connect.
+　　1. Check whether the Android studio development environment is ready. Open the sample code project directory with file "build.gradle" in Android Studio. Run TestApp on your device or simulator which have installed latest Huawei Mobile Service(HMS).<br><br>
+　　2. Register a [HUAWEI account](https://developer.huawei.com/consumer/en/).<br><br>
+　　3. Create an app, generate a signing certificate and configure the app information in AppGallery Connect.<br>
    See details: [HUAWEI CGKit Development Preparation](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides/environment-req-0000001050200019)
-　　4. To build this demo, please first import the demo in the Android Studio (3.5+).
-　　5. Configure the sample code:
+　　4. To build this demo, please first import the demo in the Android Studio (3.5+).<br><br>
+　　5. Configure the sample code:<br>
    * Change the value of applicationid in the app-level build.gradle file of the sample project to the package name of your app.
    * Add signing certificate(.jks) to the root directory, and change the value of signingConfigs in the app-level build.gradle file of the sample project.
    * Create your own models and materials according to [CG Development Guide](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides/demo-data-process-0000001050200023).
@@ -71,8 +71,8 @@ cgsdk-vulkanframework headers
        - Add pluginList directory in SDK to your own project(src/main/assets).
        - Add libs/arm64-v8a/libcgkit_plugin_offlineSupRes.so in SDK to your own project(OSRPlugin/arm64-v8a).
 
-　　6. Run the sample on your Android device or emulator for vulkan rendering demo.
-　　7. Run the sample on your Android device or emulator for offlinesuperresolution plugin demo:
+　　6. Run the sample on your Android device or emulator for vulkan rendering demo.<br><br>
+　　7. Run the sample on your Android device or emulator for offlinesuperresolution plugin demo:<br>
    * Run run.bat in app/src/main/assets/resource directory.
    * Dobule tap screen.
    * Pull the result file form /sdcard/Android/data/com.hisi.CGRenderFrameworkDemo/output_ie_sync.ppm.
