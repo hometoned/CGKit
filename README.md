@@ -84,4 +84,4 @@ cgsdk-vulkanframework headers
 ## Result
  <img src="CGRenderResult.jpg" width="30%" height="30%">
 ## License
-　　The sample of CGKit has obtained the [Apache 2.0 license](http://www.apache.org/licenses/LICENSE-2.0).
+The sample of CGKit has obtained the [Apache 2.0 license](http://www.apache.org/licenses/LICENSE-2.0).
