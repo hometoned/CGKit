@@ -24,19 +24,19 @@ cgsdk-vulkanframework headers
  include/CGRenderingFramework/Scene:|Head file of rendering scene apis.
  include/CGRenderingFramework/Utils:|Head file of param apis.
 
- cgsdk-vulkanframework libs
+ cgsdk-vulkanframework libs.
  File|Description
  ---|---
  libs/arm64-v8a/libcgkit.so:|64 bit
  libs/armeabi-v7a/libcgkit.so:|32 bit
 
- cgsdk-plugin base libs
+ cgsdk-plugin base libs.
  File|Description
  ---|---
  libs/arm64-v8a/libPluginInterface.so:|64 bit
  libs/armeabi-v7a/libPluginInterface.so:|32 bit
 
- cgsdk-plugin other headers and libs(the path in the compressed package is:cgsdk-plugin.zip/cgsdk-plugin-offlinesuperresolution.zip/cgsdk-plugin-offlinesuperresolution/cgsdk-plugin-offlinesuperresolution/)
+ cgsdk-plugin other headers and libs(the path in the compressed package is:cgsdk-plugin.zip/cgsdk-plugin-offlinesuperresolution.zip/cgsdk-plugin-offlinesuperresolution/cgsdk-plugin-offlinesuperresolution/).
  File|Description
  ---|---
  pkg-for-cgsdk/include/OSRPluginCommon.h|Head file of OSRPlugin apis.
