@@ -23,19 +23,19 @@ The following describes heads files of sample code.
 3. Copy folder `cgsdk-plugin-offlinesuperresolution/pkg-for-thirdpartyengine/libs` in SDK to "app" derectory in this demo.<br><br>
 4. Check whether the Android studio development environment is ready. Open the sample code project directory with file "build.gradle" in Android Studio. Run on your device or simulator.<br><br>
 5. Run the test app.<br>
-　　(1) Initialize the plugin.<br><br>
-　　(2) Select a test image.<br><br>
-　　(3) Run super-sampling.<br>
-　　　　(a) Query super-sampling support.<br>
-　　　　If supported:<br>
-　　　　(b) Run super-sampling synchronously. The result will be saved to `/sdcard/osr/SS_Sync.ppm`<br>
-　　　　(c) Or run super-sampling asynchronously. The result will be saved to `/sdcard/osr/SS_Async.ppm`<br><br>
-　　(4) Or run image-enhancing.<br>
-　　　　(a) Query image-enhancing support.<br>
-　　　　If supported:<br>
-　　　　(b) Set sharpness and tone-mapping.<br>
-　　　　(c) Run image-enhancing synchronously. The result will be saved to `/sdcard/osr/IE_Sync.ppm`<br>
-　　　　(d) Or run image-enhancing asynchronously. The result will be saved to `/sdcard/osr/IE_Async.ppm`<br><br>
+ (1) Initialize the plugin.<br><br>
+ (2) Select a test image.<br><br>
+ (3) Run super-sampling.<br>
+　 (a) Query super-sampling support.<br>
+　 If supported:<br>
+　 (b) Run super-sampling synchronously. The result will be saved to `/sdcard/osr/SS_Sync.ppm`<br>
+　 (c) Or run super-sampling asynchronously. The result will be saved to `/sdcard/osr/SS_Async.ppm`<br><br>
+ (4) Or run image-enhancing.<br>
+　 (a) Query image-enhancing support.<br>
+　 If supported:<br>
+　 (b) Set sharpness and tone-mapping.<br>
+　 (c) Run image-enhancing synchronously. The result will be saved to `/sdcard/osr/IE_Sync.ppm`<br>
+　 (d) Or run image-enhancing asynchronously. The result will be saved to `/sdcard/osr/IE_Async.ppm`<br><br>
 6. Uninitialize the plugin.<br>
 
 ## Supported Environments
