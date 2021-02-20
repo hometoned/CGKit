@@ -1,30 +1,37 @@
-# HMS CG Kit Demo
-[![æˆæƒè®¸å¯](https://img.shields.io/badge/Docs-hmsguides-brightgreen)](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides/introduction-0000001050197938)
+# ÕÚµ²ÌŞ³ıÊ¾Àı´úÂë
 
-## ç›®å½•
- * [ç®€ä»‹](#ç®€ä»‹)
- * [æˆæƒè®¸å¯](#æˆæƒè®¸å¯)
+## Ä¿Â¼
+ * [¼ò½é](#¼ò½é)
+ * [¿ª·¢×¼±¸](#¿ª·¢×¼±¸)
+ * [»·¾³ÒªÇó](#»·¾³ÒªÇó)
+ * [ÔËĞĞ½á¹û](#ÔËĞĞ½á¹û)
+ * [ÊÚÈ¨Ğí¿É](#ÊÚÈ¨Ğí¿É)
 
-## ç®€ä»‹
-åä¸ºå›¾å½¢è®¡ç®—æœåŠ¡ï¼ˆHUAWEI Computer Graphics Kitï¼‰ç¤ºä¾‹ä»£ç ä»“ç°åœ¨å…±æœ‰å¦‚ä¸‹6ä¸ªdemoã€‚
-1. [huawei-cg-renderframework-android-cpp-demo](https://github.com/HMS-Core/hms-computer-graphics-demo/tree/master/samples/huawei-cg-renderframework-android-cpp-demo): åŠ è½½ã€æ¸²æŸ“åŸºç¡€æ¨¡å‹ï¼ŒåŒ…å«PBRæ•ˆæœå’Œç¯å…‰ã€‚
-2. [huawei-cg-smartcachegles-android-cpp-demo](https://github.com/HMS-Core/hms-computer-graphics-demo/tree/master/samples/huawei-cg-smartcachegles-android-cpp-demo): ä»‹ç»OpenGLç‰ˆæœ¬Smart Cacheçš„ä½¿ç”¨æ–¹æ³•ã€‚
-3. [huawei-cg-smartcacheprerotationvulkan-android-cpp-demo](https://github.com/HMS-Core/hms-computer-graphics-demo/tree/master/samples/huawei-cg-smartcacheprerotationvulkan-android-cpp-demo): ä»‹ç»Vulkanç‰ˆæœ¬çš„Smart Cacheå’ŒPre-rotationä½¿ç”¨æ–¹æ³•ã€‚
-4. [huawei-cg-occlusionculling-cpp-demo](https://github.com/HMS-Core/hms-computer-graphics-demo/tree/master/samples/huawei-cg-occlusionculling-cpp-demo/Sample): ä»‹ç»é®æŒ¡å‰”é™¤APIä½¿ç”¨æ–¹æ³•å’Œé…ç½®é¡¹è®¾ç½®ã€‚
-5. [huawei-cg-offlinesupres-android-cpp-demo](https://github.com/HMS-Core/hms-computer-graphics-demo/tree/master/samples/huawei-cg-offlinesupres-android-cpp-demo): æä¾›ç¦»çº¿è¶…åˆ†æ’ä»¶å‚è€ƒç¨‹åºã€‚
-6. [huawei-cg-plugin-cpp-demo](https://github.com/HMS-Core/hms-computer-graphics-demo/tree/master/samples/huawei-cg-plugin-cpp-demo): æä¾›æ’ä»¶å¼€å‘å‚è€ƒç¨‹åºã€‚
+## ¼ò½é
+ÕÚµ²ÌŞ³ıÊ¾Àı´úÂë½éÉÜÕÚµ²ÌŞ³ıAPIÊ¹ÓÃ·½·¨ºÍÅäÖÃÏîÉèÖÃ¡£
 
-demoè¯¦æƒ…è¯·å‚è€ƒç¤ºä¾‹ä¸­çš„READMEæ–‡ä»¶ã€‚
+## ¿ª·¢×¼±¸
+1. ÏÂÔØ[cgsdk-plugin](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Library-V5/sdk-download-0000001050441521-V5) ½«cgsdk-plugin-occlusioncullingÄ¿Â¼½âÑ¹µ½sampleÄ¿Â¼ÏÂ¡£
 
-## æ›´å¤šè¯¦æƒ…
-å¦‚éœ€äº†è§£æ›´å¤šHMS Coreç›¸å…³ä¿¡æ¯ï¼Œè¯·å‰å¾€[Redditç¤¾åŒº](https://www.reddit.com/r/HuaweiDevelopers/) è·å–HMS Coreæœ€æ–°èµ„è®¯ï¼Œå‚ä¸å¼€å‘è€…è®¨è®ºã€‚
+2. ±àÒëdemo
 
-å¦‚æ‚¨å¯¹ç¤ºä¾‹ä»£ç ä½¿ç”¨æœ‰ç–‘é—®ï¼Œè¯·å‰å¾€ï¼š
-- [Stack Overflow](https://stackoverflow.com/questions/tagged/huawei-mobile-services) æé—®ï¼Œä¸Šä¼ é—®é¢˜æ—¶è¯·æ‰“ä¸Š 
-`huawei-mobile-services`æ ‡ç­¾ã€‚
-- [åä¸ºå¼€å‘è€…è®ºå›](https://forums.developer.huawei.com/forumPortal/en/home?fid=0101187876626530001) ï¼Œè·å¾—æ›´å¤šæ„è§ä¸å»ºè®®ã€‚
+    ÔÚsampleÄ¿Â¼ÏÂÖ´ĞĞ`ndk-build NDK_PROJECT_PATH=.NDK_APPLICATION_MK=Application.mk APP_BUILD_SCRIPT=Android.mk`ÃüÁî¡£
 
-å¦‚æ‚¨åœ¨è¿è¡Œç¤ºä¾‹ä»£ç æ—¶å‡ºç°é”™è¯¯ï¼Œè¯·åœ¨GitHubæäº¤[issue](https://github.com/HMS-Core/hms-computer-graphics-demo/issues) æˆ– [Pull Request](https://github.com/HMS-Core/hms-computer-graphics-demo/pulls) ã€‚
+3. ÔËĞĞdemo
 
-## æˆæƒè®¸å¯
-å›¾å½¢è®¡ç®—æœåŠ¡ç¤ºä¾‹ä»£ç å·²è·å¾—[Apache 2.0 license](http://www.apache.org/licenses/LICENSE-2.0)æˆæƒè®¸å¯ã€‚
+    Ö´ĞĞ`adb push`ÃüÁî£¬½«"Sample\obj\local\arm64-v8a"ÎÄ¼ş¼ĞÏÂµÄ"libpartythengine_plugin_oc.so"ºÍ"Sample"´«Êäµ½Éè±¸µÄ"/data/local/tmp"Ä¿Â¼ÏÂ¡£
+
+    ÔÚshellÖĞÖ´ĞĞ`export LD_LIBRARY_PATH=/data/local/tmp`ÃüÁî¡£
+
+    ÔÚ"/data/local/tmp"Ä¿Â¼ÏÂÖ´ĞĞ`chmod a+x Sample`ÃüÁî¡£
+
+    ÔÚ"/data/local/tmp"Ä¿Â¼ÏÂÖ´ĞĞ`./Sample`ÃüÁî¡£
+
+## »·¾³ÒªÇó
+1. Android 7.0¼°ÒÔÉÏµÄÉè±¸¡£
+
+## ÔËĞĞ½á¹û
+<img src="OcclusionCullingResult.jpg" width="50%" height="50%">
+
+## ÊÚÈ¨Ğí¿É
+ÕÚµ²ÌŞ³ıÊ¾Àı´úÂëÒÑ»ñµÃ[Apache 2.0 license](http://www.apache.org/licenses/LICENSE-2.0)ÊÚÈ¨Ğí¿É¡£
