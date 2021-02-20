@@ -1,12 +1,12 @@
-# CG Kit
+# 华为图形计算服务示例代码
 
-## Table of Contents
- * [简介](#introduction)
- * [开发准备](#getting-started)
- * [环境要求](#supported-environments)
- * [运行结果](#result)
- * [授权许可](#license)
-## Introduction
+## 目录
+ * [简介](#简介)
+ * [开发准备](#开发准备)
+ * [环境要求](#环境要求)
+ * [运行结果](#运行结果)
+ * [授权许可](#授权许可)
+## 简介
 华为图形计算服务（HUAWEI Computer Graphics Kit）示例代码封装了Vulkan接口，提供示例程序供您参考。<br>
 下面介绍本示例代码的头文件。<br>
 
