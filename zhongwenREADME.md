@@ -2,8 +2,8 @@
 [![授权许可](https://img.shields.io/badge/Docs-hmsguides-brightgreen)](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides/introduction-0000001050197938)
 
 ## 目录
- * [简介](#introduction)
- * [授权许可](#license)
+ * [简介](#简介)
+ * [授权许可](#授权许可)
 
 ## 简介
 华为图形计算服务（HUAWEI Computer Graphics Kit）示例代码仓现在共有如下6个demo。
